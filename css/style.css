@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    padding: 12px 25px;
+    width: 98px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(110, 255, 110);
+    font-weight: bolder;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 28px;
+    border-radius: 5px;
+    margin: 0 15px 0 56px;
+}
+
+.bts {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 1100;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.card{
+    max-width: 92vw;
+    margin: 37px auto;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+.card h2{
+    font-family: 'Mate SC', serif;
+    text-align: center;
+}
+.cards{
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 12vh;
+    font-family: 'Merriweather Sans', sans-serif;
+}
